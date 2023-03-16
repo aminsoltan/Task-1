@@ -3,7 +3,7 @@ import UIKit
 
 class MainViewController: UIViewController  {
 
-    let strArray: [String] = ["baboone","lavender","sarakhs","kaaj","rose","tomato"]
+    let strArray: [String] = ["Spinach","lavender","Rosemary","Basil","Mint","Sage"]
    
 
     
@@ -16,7 +16,7 @@ class MainViewController: UIViewController  {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        view.backgroundColor = .systemGreen
   
         
         view.addSubview(mainTable)
@@ -53,7 +53,8 @@ extension MainViewController : UITableViewDelegate,UITableViewDataSource{
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "myCell", for: indexPath)
         cell.textLabel?.text = strArray[indexPath.item]
-        cell.backgroundColor = .green
+        cell.backgroundColor = .systemGreen
+        cell.textLabel?.textColor = .white
        
         return cell
     }
