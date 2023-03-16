@@ -25,7 +25,7 @@ class DetailsViewController: UIViewController {
         title.textColor = .white
         title.lineBreakMode = .byWordWrapping
         title.numberOfLines = 0
-        title.frame = CGRect(x: 100, y: 150, width: 200, height: 100)
+        title.frame = CGRect(x: 50, y: 150, width: 250, height: 100)
         return title
     }()
     

@@ -40,7 +40,6 @@
 		CBE9851C29C0C89E0039A103 = {
 			isa = PBXGroup;
 			children = (
-				CB42866929C328EE002F5C9D /* DetailsViewController.swift */,
 				CBE9852729C0C89E0039A103 /* Task-1 */,
 				CBE9852629C0C89E0039A103 /* Products */,
 			);
@@ -60,6 +59,7 @@
 				CBE9852829C0C89E0039A103 /* AppDelegate.swift */,
 				CBE9852A29C0C89E0039A103 /* SceneDelegate.swift */,
 				CBE9852C29C0C89E0039A103 /* MainViewController.swift */,
+				CB42866929C328EE002F5C9D /* DetailsViewController.swift */,
 				CBE9853129C0C89F0039A103 /* Assets.xcassets */,
 				CBE9853329C0C89F0039A103 /* LaunchScreen.storyboard */,
 				CBE9853629C0C89F0039A103 /* Info.plist */,
